@@ -1,0 +1,90 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Fort Wayne Bulletin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="newspaper">
+    <div class="name">The Fort Wayne Bulletin</div>
+    <div class="date">May 10, 2025</div>
+    <div class="headline">Tech Programs Boost Fort Wayne’s Job Market</div>
+    <div class="sub-headline">Local training initiatives draw attention from major employers</div>
+    <div class="author">Jordan Leturgez</div>
+    <p class="text">
+      Fort Wayne’s investment in tech education is beginning to pay off. Dozens of new jobs have opened up across the city, especially in cybersecurity and software development.
+    </p>
+    <p class="text">
+      The mayor credits the success to partnerships with local colleges and online programs. “We’re building a future-ready workforce,” she said at the press event yesterday.
+    </p>
+  </div>
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+html {
+  font-size: 24px;
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  max-width: 800px;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+.date {
+  margin-bottom: 1rem;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.author {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+  margin-bottom: 1rem;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
+** end of styles.css **
+
